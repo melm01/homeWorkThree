@@ -1,10 +1,7 @@
 import java.util.*;
 import java.util.function.Consumer;
 
-/**
- * CSArrayList<E> - ArrayList-style implementation with modCount-based fail-fast iterator.
- * Minimal, but implements core operations required by the lab.
- */
+
 public class CSArrayList<E> implements Collection<E> {
     private static final int DEFAULT_CAPACITY = 10;
     private E[] elements;
